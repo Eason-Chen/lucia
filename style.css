@@ -1,0 +1,214 @@
+@import "css/reset.css";
+@import "css/basic.css";
+@charset "UTF-8";
+/*
+Them Name: Lucia Wordpress Theme
+Author: 3A - Eason
+Version: 1.0
+ */
+
+/* header and footer start */
+header,footer{
+	width: 100%;
+	background-color: #0B0B0B;
+	min-width: 900px;
+	font-family: Arial;
+}
+footer{
+	background-color: transparent;
+}
+/* header and footer end */
+
+/* header start */
+header .logo{
+	float: left;
+	width: 110px;
+	height: 140px;
+	background: url(imgs/Lucia-logo.png);
+}
+nav ul{
+	float: right;
+	list-style: none;
+	padding: 0;
+	margin-top: 70px;
+}
+nav ul li{
+	float: left;
+	padding: 10px 20px;
+	border-right: 2px solid #161616;
+}
+nav ul li a{
+	text-transform: uppercase;
+}
+nav ul li:last-of-type{
+	border-right: none;
+}
+/* header end */
+
+/* footer start */
+.copy{
+	text-align: center;
+	font-size: 14px;
+	padding: 15px 0;
+}
+.copy a:hover{
+	padding-bottom: 0;
+	border-bottom: none;
+	color: #AB7E01;
+}
+/* footer end */
+
+/* home content start */
+.grape, .region{
+	width: 402px;
+	height: 402px;
+	margin: 100px 0;
+	font-family: Arial;
+}
+.grape{
+	background: url(imgs/home_grape.png) center no-repeat;
+}
+.region{
+	background: url(imgs/home_region.png) center no-repeat;
+}
+.grape em, .region em{
+	font-style: normal;
+	border: 1px solid #fff;
+	padding: 20px 30px;
+}
+.grape em:hover, .region em:hover{
+	border-color: #AB7E01;
+}
+.grape a:hover, .region a:hover{
+	padding-bottom: 0;
+	border-bottom: none;
+	color: #AB7E01;
+}
+/* home content end */
+
+/* global margin set */
+.mar{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+/* global margin end */
+
+/* about, grape, region contenet start */
+address, .team,
+.grape_intro, .grape_sort{
+	min-height: 400px;
+	padding: 15px;
+	background: #141414;
+}
+address, .grape_intro{
+	width: 320px;
+}
+.team, .grape_sort{
+	width: 630px;
+}
+.team article{
+	margin-bottom: 20px;
+}
+.team article:last-of-type{
+	margin-bottom: 0;
+}
+.about_img{
+	float: left;
+	width: 150px;
+	margin-right: 15px;
+	border: 5px solid #fff;
+}
+.about_content{
+	float: left;
+	width: 435px;
+}
+.about_content img{
+	margin-right: 10px;
+}
+.about_content table td{
+	vertical-align: top;
+	text-align: justify;
+}
+.grape_intro, .grape_sort{
+	height: 600px;
+}
+.grapes{
+	float: left;
+	width: 600px;
+	margin-bottom: 15px;
+}
+.grapes_img{
+	float: left;
+	width: 200px;
+	height: 145px;
+	margin-right: 20px;
+}
+.grapes_des{
+	float: left;
+	width: 380px;
+	height: 145px;
+	overflow: hidden;
+}
+.grapes_des h3{
+	margin-bottom: 10px;
+}
+.grapes_des p{
+	margin: 0;
+}
+/* about, grape, region content end*/
+
+/* single grape start */
+.singleGrape_des{
+	float: left;
+	padding: 15px;
+	background: #141414;
+	width: 370px;
+	height: 410px;
+}
+.singleGrape_img{
+	float: right;
+	border: 5px solid #141414;
+	width: 580px;
+	height: 410px;
+}
+.product{
+	margin-right: -25px;
+}
+.wines{
+	float: left;
+	width: 310px;
+	height: 400px;
+	margin-right: 25px;
+	margin-bottom: 65px;
+	background: #141414;
+}
+.wines .wines_img{
+	float: left;
+	width: 310px;
+	height: 200px;
+	padding: 5px;
+}
+.wines .wines_des{
+	float: left;
+	width: 310px;
+	height: 150px;
+	padding: 15px;
+}
+.wines .wines_des p{
+	margin: 0;
+}
+.wines .more{
+	float: left;
+	text-align: center;
+	display: inline-block;
+	padding: 10px 20px;
+	background: #AB7E01;
+	margin-top: 30px;
+	margin-left: 103px;
+	cursor: pointer;
+	color: #fff;
+}
+.wines .more:hover{
+  	border-bottom: none;
+}
+/* single grape end */
